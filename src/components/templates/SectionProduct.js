@@ -7,6 +7,21 @@ const SectionProduct = ({ products }) => {
    return <button className="visibilityButton">Shop</button>
   }
 
+  const ChangeStyle = (props) => {
+    const index=props
+    console.log(props)
+    switch (index) {
+      case 1:
+      case 3:
+        return "containerProduct containerImgLinkProductReverse";
+      case 0:
+      case 2:
+        return "containerProduct";
+      default:
+        return "";
+    }
+  };
+  
    const Checkid=(props)=> {
     const unicId=props.unicId
     console.log(unicId)
@@ -14,20 +29,19 @@ const SectionProduct = ({ products }) => {
       return (
         <CreateButton/>
       )
-      }else {
-      return null;
+      }else{
+      return null
     }}  
 
-  const printProducts = products.map((product) => (
-    <section key={product.id} className="containerProduct">
+    const printProducts = products.map((product,index) => (
+    <section key={product.id}
+     className={ChangeStyle(index)}>
       <div className="containerLink">
-        <h1 >{product.id}</h1>
-        <img
+      <img
           className="containerImgLinkProduct"
           src={product.imgLink}
           alt={product.name}
-          
-        ></img>
+        ></img>     
       <Checkid unicId={product.id} />
          </div>
       <div className="containerImgProduct">

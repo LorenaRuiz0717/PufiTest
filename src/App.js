@@ -6,7 +6,7 @@ import {Banner} from './components/templates/Banner';
 import SectionProduct from './components/templates/SectionProduct';
 import GalleryInstagram from './components/templates/GalleryInstagram';
 import {Newsletter} from './components/templates/Newsletter';
-import { Footer } from './components/templates/Footer';
+import Footer from './components/templates/Footer';
 
 function App() {
   return (

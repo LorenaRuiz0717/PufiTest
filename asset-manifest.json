@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PufiTest/static/css/main.66033172.css",
+    "main.js": "/PufiTest/static/js/main.ec54c10a.js",
+    "static/media/banner2.jpg": "/PufiTest/static/media/banner2.c8b072a0b35d74c71c54.jpg",
+    "index.html": "/PufiTest/index.html",
+    "main.66033172.css.map": "/PufiTest/static/css/main.66033172.css.map",
+    "main.ec54c10a.js.map": "/PufiTest/static/js/main.ec54c10a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66033172.css",
+    "static/js/main.ec54c10a.js"
+  ]
+}

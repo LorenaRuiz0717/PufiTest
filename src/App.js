@@ -1,19 +1,19 @@
 
 import { Provider } from 'react-redux';
 import store from './store';
-import { Nav } from './components/Nav';
-import {Banner} from './components/Banner';
-import Section from './components/Section';
-import { GalleryInstagram } from './components/GalleryInstagram';
-import {Newsletter} from './components/Newsletter';
-import { Footer } from './components/Footer';
+import { Nav } from './components/templates/Nav';
+import {Banner} from './components/templates/Banner';
+import SectionProduct from './components/templates/SectionProduct';
+import GalleryInstagram from './components/templates/GalleryInstagram';
+import {Newsletter} from './components/templates/Newsletter';
+import { Footer } from './components/templates/Footer';
 
 function App() {
   return (
     <Provider store={store}>
     <Nav/>
     <Banner/>
-    <Section/>
+    <SectionProduct/>
     <GalleryInstagram/>
     <Newsletter/>
     <Footer/>

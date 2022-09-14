@@ -6,4 +6,14 @@
 @use './sass/base/base';
 @use './sass/base/resets';
 
-@use './sass/components/navbar';
+// Components
+@use './sass/components/templates/navbar';
+@use './sass/components/templates/banner';
+@use './sass/components/templates/sectionProduct';
+@use './sass/components/templates/galleryInstagram';
+@use './sass/components/templates/newsletter';
+@use './sass/components/templates/footer';
+
+// Organisms
+@use './sass/components/organisms/button';
+

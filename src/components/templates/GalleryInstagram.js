@@ -7,7 +7,7 @@ const GalleryInstagram = ({ galleryInstagram }) => {
   ));
   return (
     <div className="containerGallery">
-      <h4>Instagram</h4>
+      <h6>Instagram</h6>
       <h2>#Espufi</h2>
       <div className="gallery">
        {printImg}

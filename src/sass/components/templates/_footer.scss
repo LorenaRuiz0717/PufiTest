@@ -1,8 +1,14 @@
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
 .containerFooter {
   box-sizing: border-box;
   display: flex;
   margin-top: 20px;
   padding-top: 20px;
+  justify-content: center;
 }
 .columnFooter {
   float: left;
@@ -16,6 +22,7 @@
     color: var(--black);
     font-weight: 900;
     font-size: 30px;
+    margin-left: 30px;
   }
   li {
     color: var(--gray);
@@ -27,6 +34,12 @@
   height: 90px;
   width: 2px;
   margin: 5px;
+}
+
+hr{
+  border-top: 2px solid var(--gray);
+  width: 95%;
+  align-self: center;
 }
 
 .sureBuyIcons{
@@ -54,6 +67,9 @@
     font-size: 11px;
     color: var(--gray);
   }
+  a{
+    color:var(--black)
+  }
 }
 
 footer:after {
@@ -63,6 +79,7 @@ footer:after {
   content: "PUFI Copyright2017-Todos los derechos reservardos";
   display: block;
   clear: both;
+  margin-left: 30px;
 }
 
 

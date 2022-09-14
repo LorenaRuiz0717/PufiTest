@@ -25,10 +25,10 @@ const Footer = ({ products }) => {
         <hr className="hrFooter" />
         <div className="columnFooter">
           <ul>
-            <li>Contacto</li>
-            <li>Ayuda</li>
-            <li>Como comprar</li>
-            <li>Terminos & condiciones</li>
+          <a href="#Contact"> <li>Contacto</li></a>
+          <a href="#help"><li>Ayuda</li></a>
+          <a href="#buy">  <li>Como comprar</li></a>
+          <a href="#termns">  <li>Terminos & condiciones</li></a>
           </ul>
         </div>
         <hr className="hrFooter" />
@@ -46,12 +46,13 @@ const Footer = ({ products }) => {
         <div className="columnFooter">
           <div className="socialMedia">
             <p>Siguenos en</p>
-            <FaFacebookF />
-            <FaTwitter />
-            <FaInstagram />
+          <a href="#Facebook"> <FaFacebookF /></a> 
+          <a href="#Twittee">  <FaTwitter /></a>
+          <a href="#Instagram"><FaInstagram /></a>
           </div>
         </div>
       </div>
+      <hr/>
     </footer>
   );
   return (

@@ -36,7 +36,7 @@
     }
     span{
         align-self: center;
-        font-size: 60px;
+        font-size: 50px;
         height: 68px;
     }
     a{
@@ -51,6 +51,7 @@
     display: flex;
     flex-direction: row;
     margin: 15px;
+    align-items: center;
 
     a, span{
         color: var(--white);

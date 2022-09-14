@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {FaAngleRight} from "react-icons/fa";
 
 const SectionProduct = ({ products }) => {
 
@@ -49,7 +50,7 @@ const SectionProduct = ({ products }) => {
         <h2 >{product.name}</h2>
         <hr />
         <p >{product.description}</p>
-        <a href="#VerMas">Ver mas</a>
+      <div className="seeMore"> <FaAngleRight/><a href="#VerMas">Ver mas</a></div>
       </div>
     </section>
   ));

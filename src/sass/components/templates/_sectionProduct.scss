@@ -4,8 +4,7 @@
   height: 650px;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
-  color: black;
+  color: var(--black);
 }
 .ImgProduct {
   width: 200px;
@@ -49,7 +48,7 @@
   a {
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-top: 50px;
+    // margin-top: 50px;
     color:var(--gray)
   }
 }
@@ -73,4 +72,14 @@
   height: 60px;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+.seeMore{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  align-items: center;
+  color:var(--gray);
+  font-weight: 600;
+
 }

@@ -11,4 +11,4 @@ Gracias por el reto, disfruté desarrollarlo y aprender en el proceso.
 :hugs:Gracias por visitarme, puedes registrar tu correo en la interfaz [**https://lorenaruiz0717.github.io/PufiTest/index.html**](https://lorenaruiz0717.github.io/PufiTest/index.html) en la sección de suscripción NewsLetter para saber de tu visita.  :speech_balloon:
 
 
-![imgPdf](./src/assets/imgPdf.jpg)
+![imgPdf](./src/assets/imgPdf.png)

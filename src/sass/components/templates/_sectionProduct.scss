@@ -60,12 +60,13 @@
 .hiddenButton {
   display: none;
 }
+
 .visibilityButton {
   position: absolute;
   margin: 65% 35%;
-  background-color: transparent;
   color: var(--white);
   border: 1px solid var(--white);
+  background-color: transparent; 
   border-width: 100;
   width: 150px;
   height: 60px;

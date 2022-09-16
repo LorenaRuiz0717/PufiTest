@@ -4,14 +4,11 @@
     height: 750px;
     justify-content: center;
     align-items: center;
-    // background-image: url('../../../assets/banner2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
 .contentBanner{
     display: flex;
+    position: absolute;
     flex-direction: column;
     justify-content: space-evenly;
     height: 500px;

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PufiTest/static/css/main.4f7209f3.css",
+    "main.css": "/PufiTest/static/css/main.523405b4.css",
     "main.js": "/PufiTest/static/js/main.fda79a17.js",
     "index.html": "/PufiTest/index.html",
-    "main.4f7209f3.css.map": "/PufiTest/static/css/main.4f7209f3.css.map",
+    "main.523405b4.css.map": "/PufiTest/static/css/main.523405b4.css.map",
     "main.fda79a17.js.map": "/PufiTest/static/js/main.fda79a17.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7209f3.css",
+    "static/css/main.523405b4.css",
     "static/js/main.fda79a17.js"
   ]
 }
